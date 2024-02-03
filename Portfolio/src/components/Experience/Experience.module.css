@@ -1,0 +1,101 @@
+@import "../../vars.css";
+
+.experienceContainer{
+	padding: 3vw;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	color: var(--color-text);
+	z-index: 1;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: var(--color-bg);
+	border-radius: 10px;
+	margin-top: 2vw;
+}
+
+.Container{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.imageContainer{
+	margin-top: 1vw;
+	display: flex;
+	width: 30%;
+	flex-wrap: wrap;
+	gap: 11px;
+}	
+
+.IMG{
+	padding: 20px;
+	background-color: var(--color-primary);
+	border-radius: 50%;
+
+}
+.experienceHeading{
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 45px;
+}
+
+
+.experiences{
+	display:flex;
+	flex-direction: column;
+	gap: 40px;
+
+}
+
+.experience{
+	display:flex;
+	align-items: center;
+	padding: 1vw 1vw;
+	border-radius:20px;
+	gap:20px;
+	background-image: linear-gradient(90deg,rgba(165,215,232,0.42) 0%,rgba(255,255,255,0) 100%);
+	
+}
+
+.experience:hover{
+	cursor: pointer;
+}
+
+ul{
+	margin-left: 40px;
+}
+
+.experienceInfo h1{
+	font-family: var(--font-roboto);
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+
+.experienceInfo p{
+	font-family: var(--font-roboto);
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.experienceInfo li{
+	font-family: var(--font-roboto);
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 830px){
+	.Container{
+		flex-direction: column;
+		align-items: center;
+		gap: 34px;
+	}
+	.imageContainer{
+		width: 100%;
+	}
+
+}

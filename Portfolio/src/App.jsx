@@ -1,5 +1,5 @@
 import styles from './App.module.css'
-import {Navbar,Hero,About} from './components'
+import {Navbar,Hero,About,Experience} from './components'
 
 
 const App = () => (
@@ -9,6 +9,7 @@ const App = () => (
       <Navbar />
       <Hero />
       <About />
+      <Experience />
     </div>
 
 

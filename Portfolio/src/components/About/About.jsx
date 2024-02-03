@@ -4,6 +4,7 @@ import cursor from '../../assets/cursor.png'
 import uiIcon from '../../assets/uiIcon.png'
 import serverIcon from '../../assets/serverIcon.png'
 import aboutImage from '../../assets/aboutImage.png'
+
 const About = () => (
   
 
@@ -19,7 +20,7 @@ const About = () => (
 
           {aboutInfo.map((info,index) => (
 
-            <div className = {styles.service}>
+            <div key = {index} className = {styles.service}>
               <img
               src={index === 0 ? cursor : index === 1 ? serverIcon : index === 2 ? uiIcon : ''}
               alt="" />

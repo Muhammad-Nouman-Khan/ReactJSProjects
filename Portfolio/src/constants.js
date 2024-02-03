@@ -41,3 +41,30 @@ export const aboutInfo = [
     },
 
 ]
+
+export const experienceInfo = [
+
+    {
+        title: "Software Engineer, Google",
+        date : "Sept2,2022 - Present",
+        resp1 : "Worked on Google Maps",
+        resp2 : "Reduced load times by 50%",
+    },
+
+    {
+        title: "UI Designer, Microsoft",
+        date : "Aug,2021-Aug,2022",
+        resp1 : "Worked on Windows 11",
+        resp2 : "Designed the control panel",
+
+    },
+
+    {
+        title: "SWE Intern, Netflix",
+        date : "Apr,2020-Jun,2020",
+        resp1 : "Worked on component library",
+        resp2 : "Helped create UI components",
+
+    },
+
+]
