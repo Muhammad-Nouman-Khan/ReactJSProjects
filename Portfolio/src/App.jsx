@@ -1,8 +1,14 @@
-
+import styles from './App.module.css'
+import {Navbar} from './components'
 
 const App = () => (
   
-  <>HELLO</>
+
+    <div className={styles.App}>
+      <Navbar />
+    </div>
+
+
 
 
 )

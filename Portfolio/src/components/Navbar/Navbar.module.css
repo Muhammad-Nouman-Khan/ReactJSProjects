@@ -1,0 +1,79 @@
+@import "../../vars.css";
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+    position: relative;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    color:var(--color-text);
+}
+
+.NavMenu{
+    display: flex;
+}
+
+.MenuItems{
+    display: flex;
+    gap:47px;
+    list-style: none;
+}
+
+.MenuItems a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.MenuBtn{
+    display: none;
+}
+
+
+@media screen and (max-width : 840px){
+
+    
+    .MenuBtn{
+        display:block;
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+    .NavMenu{
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 10%;
+    }
+
+    .MenuItems{
+        display:none;
+        flex-direction:column;
+        position: absolute;
+        top:50px;
+        text-align: center;
+        gap: 15px;
+        padding: 1vw 3vw;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(0deg,rgba(25,55,109,0.2) 0%,rgba(25,55,109,1) 100%);
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+
+    }   
+
+    
+    .MenuOpen{
+        display: flex;
+        z-index: 1;
+    }
+
+
+
+
+    
+}   
