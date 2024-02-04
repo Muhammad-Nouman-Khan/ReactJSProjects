@@ -8,7 +8,7 @@ const Hero = () => {
 
 		<section className = {styles.heroContainer}>
 			<div className = {styles.heroContent}>
-				<h1 className = {styles.heroTitle}>Hi,I'm Nouman</h1>
+				<h1 className = {styles.heroTitle}>Hi,I'm Ada</h1>
 				<p className = {styles.heroAbout}>
 					I’m a frontend developer with 1 year
 					of experience using React JS.

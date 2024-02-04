@@ -1,0 +1,52 @@
+@import "../../vars.css";
+
+.container{
+	background-color: var(--color-secondary);
+	color: var(--color-text);
+	padding: 5vw 0;
+	display: flex;
+	align-items: center;
+	gap: 5vw;
+	margin-top: 3vw;
+}
+
+.left{
+	margin-left: 10%;
+}
+
+.right{
+	margin-right: 10%;
+}
+.left h1{
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 100px;
+}
+.left p{
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.contact{
+	display:flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.contact a{
+	text-decoration: none;
+	color: var(--color-text);
+	font-weight: 400;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 830px){
+	.container{
+		flex-direction: column;
+		padding: 0 30vw;
+	}
+	.left p{
+		text-align: center;
+	}
+}

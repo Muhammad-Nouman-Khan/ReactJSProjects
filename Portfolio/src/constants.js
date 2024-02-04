@@ -68,3 +68,31 @@ export const experienceInfo = [
     },
 
 ]
+
+export const projectsInfo = [
+
+    {
+        title : "Project A",
+        details : "This is a project made to learn the latest languages by building an app.",
+        skills : ["React","Express","Node"],
+        source : "www.github.com",
+    },
+
+    {
+        title : "Project A",
+        details : "This is a project made to learn the latest languages by building an app.",
+        skills : ["React","Express","Node"],
+        source : "www.github.com",
+    },
+
+    {
+        title : "Project A",
+        details : "This is a project made to learn the latest languages by building an app.",
+        skills : ["React","Express","Node"],
+        source : "www.github.com",
+
+    },
+
+
+
+]

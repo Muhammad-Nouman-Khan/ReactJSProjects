@@ -23,7 +23,7 @@
 .imageContainer{
 	margin-top: 1vw;
 	display: flex;
-	width: 30%;
+	width: 34%;
 	flex-wrap: wrap;
 	gap: 11px;
 }	
@@ -55,7 +55,7 @@
 	border-radius:20px;
 	gap:20px;
 	background-image: linear-gradient(90deg,rgba(165,215,232,0.42) 0%,rgba(255,255,255,0) 100%);
-	
+
 }
 
 .experience:hover{
