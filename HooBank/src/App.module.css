@@ -1,0 +1,6 @@
+@import "./vars.css";
+
+.container{
+  background-color: var(--color-hover);
+  height: 100vh;
+}
