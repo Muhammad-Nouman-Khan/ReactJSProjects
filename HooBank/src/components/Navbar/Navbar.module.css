@@ -1,0 +1,68 @@
+@import "../../vars.css";
+
+.Navbar{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2vw 0;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItems{
+    display: flex;
+}
+
+.logo{
+    width: 20vh;
+}
+
+.linksContainer{
+    position: relative;
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+}
+
+.navItems a{
+    color : var(--color-para);
+    text-decoration: none;
+    font-size: 2.3vh;
+}
+
+.navItems a:hover{
+    color: var(--color-text);
+}
+
+.menuImg{
+    display: none;
+}
+
+@media screen and (max-width: 830px){
+    .linksContainer{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top:50px;
+        background-color: var(--color-hover);
+        z-index: 100;
+        padding: 4vw;
+        right: 1vw;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .navItems{
+        justify-content: center;
+    }
+
+    .menuImg{
+        display: block;
+    }
+
+    .menuOpen{
+        display: flex;
+    }
+    
+}
