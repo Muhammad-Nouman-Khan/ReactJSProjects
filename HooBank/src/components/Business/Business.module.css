@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+.Container {
+    display: flex;
+    color: var(--color-text);
+    margin-top: 8vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left {
+    width: 50%;
+}
+
+.para {
+    margin: 1.2vw 0;
+    line-height: 1.5;
+    width: 70%;
+}
+
+.right {
+    width: 50%;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1vw;
+    transition: all .5s ease-in;
+}
+
+.service:hover {
+    background-color: var(--color-hover);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.right h1 {
+    font-size: 2vh;
+}
+
+@media screen and (max-width : 800px) {
+    .Container {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .service{
+        margin-top: 2vw;
+    }
+
+    .para {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+}

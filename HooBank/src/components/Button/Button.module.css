@@ -1,0 +1,23 @@
+@import "../../vars.css";
+
+.btn{
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 1vw;
+    color: black;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width : 800px) {
+    .btn{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+}
+

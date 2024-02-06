@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import {Navbar,Hero} from "./index"
+import {Navbar,Hero,Business,Button} from "./index"
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
     <div className = {styles.container}>
       <Navbar />
       <Hero />
+      <Business />
     </div>
   )
 }
