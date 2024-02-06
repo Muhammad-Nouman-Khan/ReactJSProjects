@@ -1,0 +1,180 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top h1 {
+    width: 50%;
+    padding-right: 10vw;
+    font-size: 3vw;
+}
+
+.top p {
+    width: 50%;
+    line-height: 1.5;
+    padding-left: 2vw;
+    font-size: 1.5vw;
+}
+
+.mid {
+    margin-top: 5vw;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3vw;
+    border-radius: 10px;
+    gap: 3vw;
+    width: 25vw;
+    justify-content: space-between;
+    transition: all ease-in-out .5s;
+}
+
+.feedback:hover {
+    background-color: var(--color-hover);
+    cursor: pointer;
+
+}
+
+.feedback p {
+    font-size: 1.2vw;
+    color: var(--color-text);
+    line-height: 1.5;
+}
+.quotes{
+    width: 10%;
+}
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.person h2 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.person p {
+    color: var(--color-para);
+    font-size: 1vw;
+}
+
+.person img {
+    width: 20%;
+}
+
+.imgContainer {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgContainer img {
+    width: 20%;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw 5vw;
+    background-color: var(--color-hover);
+    border-radius: 20px;
+    margin-top: 5vw;
+}
+
+.bottom h1 {
+    font-size: 3vw;
+}
+
+.bottom p {
+    font-size: 1vw;
+    width: 60%;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top h1 {
+        width: 100%;
+        padding-right: 0vw;
+        font-size: 5vw;
+    }
+
+    .top p {
+        width: 100%;
+        line-height: 1.5;
+        padding-left: 0vw;
+        font-size: 3vw;
+    }
+
+    .mid {
+        margin-top: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .feedback {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .feedback p {
+        font-size: 3vw;
+        color: var(--color-text);
+        line-height: 1.5;
+    }   
+
+    .person h2 {
+        font-size: 3vw;
+    }
+
+    .person p {
+        font-size: 2.2vw;
+    }
+
+    .person img {
+        width: 20%;
+    }
+
+    .bottom h1 {
+        font-size: 4vw;
+    }
+
+    .bottom p {
+        font-size: 3vw;
+        width: 100%;
+    }
+
+    .bottomLeft{
+        width: 70%;
+    }
+}

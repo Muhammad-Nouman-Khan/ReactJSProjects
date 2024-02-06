@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import {Navbar,Hero,Business,Billing} from "./index"
+import {Navbar,Hero,Business,Billing,Card,Feedback} from "./index"
 
 function App() {
 
@@ -9,6 +9,8 @@ function App() {
       <Hero />
       <Business />
       <Billing />
+      <Card />
+      <Feedback />
     </div>
   )
 }

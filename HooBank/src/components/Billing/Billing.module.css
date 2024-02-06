@@ -40,4 +40,13 @@
     .IMG{
         width: 30%;
     }
+    .content h1{
+        font-size: 6vw;
+    }
+    .content p{
+        font-size: 3vw;
+    }
+    .billImg{
+        width: 100%;
+    }
 }

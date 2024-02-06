@@ -1,0 +1,52 @@
+@import "../../vars.css";
+
+.Container {
+    display: flex;
+    color: var(--color-text);
+    margin-top: 8vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left {
+    width: 50%;
+    padding-top: 5vw;
+}
+
+.title{
+    font-size: 3vw;
+}
+
+.para {
+    margin: 1.2vw 0;
+    line-height: 1.5;
+    width: 70%;
+}
+
+.cardImg{
+    width: 50%;
+}
+
+@media screen and (max-width : 800px){
+    .Container{
+        flex-direction: column;
+       
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+    .cardImg{
+        width: 100%;
+    }
+    .title{
+        font-size: 6vw;
+    }
+    .para{
+        font-size: 3vw;
+    }
+    
+}
