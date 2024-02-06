@@ -5,6 +5,7 @@ import Button from "./components/Button/Button"
 import Billing from "./components/Billing/Billing"
 import Card from "./components/Card/Card"
 import Feedback from "./components/FeedBack/Feedback"
+import Footer from "./components/Footer/Footer"
 export {
     Navbar,
     Hero,
@@ -13,4 +14,5 @@ export {
     Billing,
     Card,
     Feedback,
+    Footer,
 }
