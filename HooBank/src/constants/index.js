@@ -21,6 +21,25 @@ export const navLinks = [
         title: "Solution",
     },
 
+]
+
+export const stats = [
+
+    {
+        count : "3800+",
+        title : "USER ACTIVE",
+        
+    },
+
+    {
+        count : "230+",
+        title : "TRUSTED BY COMPANY",
+    },
+
+    {
+        count : "$230M+",
+        title : "TRANSACTION",
+    },
 
 
 ]
