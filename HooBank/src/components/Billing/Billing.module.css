@@ -1,0 +1,43 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
+    margin-top: 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 2vw;
+}
+
+.content h1{
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+.content p{
+    width: 80%;
+}
+
+.billImg{
+    width: 50%;
+}
+
+.IMG{
+    width: 20%;
+}
+
+@media screen and (max-width : 800px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .IMG{
+        width: 30%;
+    }
+}
