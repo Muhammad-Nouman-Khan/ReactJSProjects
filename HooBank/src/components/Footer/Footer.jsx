@@ -15,7 +15,7 @@ const Footer = () => {
               <h4>{footerlink.title}</h4>
               <ul>
                 {footerlink.links.map((link, index) => (
-                  <li key={index}>{link.name}</li>
+                  <li className = {styles.linksName} key={index}>{link.name}</li>
                 ))}
               </ul>
             </div>
