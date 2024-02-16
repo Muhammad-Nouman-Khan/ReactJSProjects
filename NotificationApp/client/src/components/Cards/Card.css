@@ -1,0 +1,45 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+img{
+    cursor: pointer;
+}
+
+.userInfo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.postImg{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.postIcons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.infoImg{
+    position: absolute;
+    right: 10px;
+    height: 20px;
+}

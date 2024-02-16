@@ -1,0 +1,43 @@
+.navbar{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+h1{
+    cursor: pointer;
+}
+
+.navIcons{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    position: relative;
+}
+
+.counter{
+    display: flex;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
+
+
+.icon img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}

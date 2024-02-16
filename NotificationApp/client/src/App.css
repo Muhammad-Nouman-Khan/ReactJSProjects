@@ -1,0 +1,24 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid red;
+    width: 50vh;
+    min-height: 90vh;
+}
+
+.user{
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    margin-top: 20px;
+    color: lightseagreen;
+}
